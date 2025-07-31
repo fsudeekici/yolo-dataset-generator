@@ -12,18 +12,18 @@ Before you run the code, you must create two files:
 ## 2. Folder Structure
 
 .
-├── id_list.txt # (You must create this) Image IDs
-├── image_list.txt # (Optional) File names
-├── raw_images/ # Downloaded original images
-├── transaction_results/ # Data from database/API in JSON
-├── output_images/ # Images with bounding boxes
-├── output_yolo/ # YOLO label files (.txt)
-├── image_processor.py # Image conversion script
-├── main.py # Main Python script
-├── .env # Your API and DB info
-├── .gitignore # Hides private files
-├── requirements.txt # Needed Python packages
-└── README.md # This file
+- id_list.txt # (You must create this) Image IDs
+- image_list.txt # (Optional) File names
+- raw_images/ # Downloaded original images
+- transaction_results/ # Data from database/API in JSON
+- output_images/ # Images with bounding boxes
+- output_yolo/ # YOLO label files (.txt)
+- image_processor.py # Image conversion script
+- main.py # Main Python script
+- env # Your API and DB info
+- .gitignore # Hides private files
+- requirements.txt # Needed Python packages
+- README.md # This file
 
 
 ## 3. How to Use
